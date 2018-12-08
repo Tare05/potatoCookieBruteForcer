@@ -11,7 +11,7 @@ parser.add_argument("-n","--negative",help="String in HTTP response which indica
 
 argv = parser.parse_args()
     
-if(len(sys.argv) < 5):
+if(len(sys.argv) != 9):
     parser.print_help()
     sys.exit(0)
 
